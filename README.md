@@ -2,7 +2,7 @@
 
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
-![Google Gemini](link-to-gemini-logo.png)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google)
 
 
 **Author:** Mohammad Danish  
@@ -35,7 +35,7 @@ It integrates with **OpenAI API** through an **Express backend**, ensuring your 
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/khandanisheth/AI-ChatBotMd.git>
 cd AI-CHATBOT
 
 ### 2. Setup Client (React)
