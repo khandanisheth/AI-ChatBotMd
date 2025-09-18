@@ -2,7 +2,7 @@
 
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google)
 
 **Author:** Mohammad Danish  
 **Email:** khanDanishindia04  
