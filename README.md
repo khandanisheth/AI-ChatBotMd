@@ -52,7 +52,7 @@ Frontend (.env)
 VITE_API_BASE=http://localhost:3001
 
 Backend (.env)
-OPENAI_API_KEY=your_openai_api_key
+OPENAI_API_KEY=your_Google Gemini_key
 PORT=3001
 
 5. Run the Application
