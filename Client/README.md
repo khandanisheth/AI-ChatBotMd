@@ -24,9 +24,6 @@ It integrates with **OpenAI API** through an **Express backend**, ensuring your 
 ---
 
 ## Folder Structure
-
-
-## Folder Structure
 <img width="276" height="579" alt="image" src="https://github.com/user-attachments/assets/d359a6b1-7ba7-48ea-a802-ee3922f68172" />
 
 
@@ -60,10 +57,8 @@ PORT=3001
 5. Run the Application
 
 Start Backend Server:
-
 cd server
 npm run dev
-
 
 Start Frontend React App:
 cd client
