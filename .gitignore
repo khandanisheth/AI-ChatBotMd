@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+Client/node_modules/
+Server/node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+Client/.env
+Client/.env.*
+Server/.env
+Server/.env.*
+
+# Build output
+.next/
+Client/.next/
+dist/
+build/
+out/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache
+.cache/
+.turbo/
+.eslintcache
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #09090b;
+  --bg-soft: #111827;
+  --panel: rgba(17, 24, 39, 0.78);
+  --panel-solid: #111827;
+  --card: rgba(15, 23, 42, 0.86);
+  --text: #e5eefb;
+  --muted: #94a3b8;
+  --line: rgba(148, 163, 184, 0.2);
+  --brand: #2563eb;
+  --assistant: linear-gradient(135deg, rgba(30, 41, 59, 0.96), rgba(15, 23, 42, 0.92));
+  --user: linear-gradient(135deg, #2563eb, #1d4ed8);
+  --danger: linear-gradient(135deg, rgba(127, 29, 29, 0.96), rgba(69, 10, 10, 0.96));
+}
+
+[data-theme="light"] {
+  --bg: #eef4ff;
+  --bg-soft: #dbeafe;
+  --panel: rgba(255, 255, 255, 0.82);
+  --panel-solid: #ffffff;
+  --card: rgba(255, 255, 255, 0.92);
+  --text: #0f172a;
+  --muted: #64748b;
+  --line: rgba(100, 116, 139, 0.22);
+  --brand: #1d4ed8;
+  --assistant: linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(241, 245, 249, 0.96));
+  --user: linear-gradient(135deg, #2563eb, #1d4ed8);
+  --danger: linear-gradient(135deg, rgba(254, 226, 226, 0.96), rgba(254, 202, 202, 0.96));
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(37, 99, 235, 0.18), transparent 34%),
+    radial-gradient(circle at top right, rgba(14, 165, 233, 0.16), transparent 24%),
+    linear-gradient(180deg, var(--bg-soft), var(--bg));
+  color: var(--text);
+  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+code {
+  font-family: "Space Grotesk", "SFMono-Regular", Consolas, monospace;
+}
+
+button,
+select,
+textarea {
+  font: inherit;
+}
